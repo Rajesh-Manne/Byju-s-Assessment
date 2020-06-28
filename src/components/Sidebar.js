@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
-import Topbar from "./Topbar";
+import SideNavBar from "./SideNavBar";
 import Cards from "./Cards";
 export default class Sidebar extends Component {
   render() {
@@ -45,7 +45,7 @@ export default class Sidebar extends Component {
             </Link>
           </li>
         </ul>
-        <Topbar />
+        <SideNavBar />
         <Cards />
       </Sidewrapper>
     );

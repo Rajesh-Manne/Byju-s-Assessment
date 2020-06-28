@@ -68,19 +68,18 @@ export default class Topbar extends Component {
 const Topwrapper = styled.nav`
   display: flex !important;
   position: relative;
-  margin-left: 80px;
-//   padding: 0 10px;
   height:50px;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   .topbar {
     display: flex;
     background: #fff;
-    // padding: 5px;
+    height:auto;
     list-style: none;
     align-content: center !important;
     .active{
       border-bottom: 4px solid #813186;
+ 
     }
   }
   .topbar li{
