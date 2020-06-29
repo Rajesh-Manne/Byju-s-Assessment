@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import class from "*.module.sass";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import user from "../../src/user.jpg";
 
 export default class Cards extends Component {

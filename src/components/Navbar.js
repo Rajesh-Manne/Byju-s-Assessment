@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "../../src/logo.jpg";
 import user from "../../src/user.jpg";
 import { Link } from "react-router-dom";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export default class Navbar extends Component {
   render() {
