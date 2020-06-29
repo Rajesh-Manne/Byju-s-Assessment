@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 
 // import { Switch, Route } from "react-router-dom";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
